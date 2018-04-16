@@ -1,11 +1,11 @@
 CREATE TABLE characters (
   id INTEGER PRIMARY KEY
-)
+);
 
 
 CREATE TABLE books(
   id INTEGER PRIMARY KEY
-)
+);
 
 
 CREATE TABLE series(
@@ -19,7 +19,7 @@ CREATE TABLE series(
 CREATE TABLE authors(
   id INTEGER PRIMARY KEY,
   name TEXT
-)
+);
 
 CREATE TABLE subgenres(
   id INTEGER PRIMARY KEY,
