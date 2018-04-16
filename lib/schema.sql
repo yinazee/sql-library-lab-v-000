@@ -21,7 +21,6 @@ CREATE TABLE character_books (
   book_id INTEGER
 );
 
-
 CREATE TABLE series (
   id INTEGER PRIMARY KEY,
   title TEXT,
