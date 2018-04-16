@@ -5,7 +5,6 @@ CREATE TABLE characters (
   species TEXT,
   author_id INTEGER,
   series_id INTEGER,
-  
 );
 
 
