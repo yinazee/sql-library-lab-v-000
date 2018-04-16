@@ -8,7 +8,7 @@ CREATE TABLE characters (
 );
 
 
-CREATE TABLE character_books (
+CREATE TABLE books (
   id INTEGER PRIMARY KEY
   title TEXT,
   year INTEGER
