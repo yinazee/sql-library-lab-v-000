@@ -1,12 +1,24 @@
-CREATE TABLE characters
+CREATE TABLE characters (
+  id INTEGER PRIMARY KEY
+)
 
 
-CREATE TABLE books
+CREATE TABLE books(
+  id INTEGER PRIMARY KEY
+)
 
 
-CREATE TABLE series
+CREATE TABLE series(
+  id INTEGER PRIMARY KEY,
+  title TEXT,
+  
+)
 
 
-CREATE TABLE authors
+CREATE TABLE authors(
+  id INTEGER PRIMARY KEY
+)
 
-CREATE TABLE sub_genres
+CREATE TABLE sub_genres(
+  id INTEGER PRIMARY KEY
+)
