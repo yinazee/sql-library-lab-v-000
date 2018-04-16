@@ -13,7 +13,7 @@ CREATE TABLE series(
   title TEXT,
   author TEXT,
   subgenre TEXT
-)
+);
 
 
 CREATE TABLE authors(
