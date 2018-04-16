@@ -8,7 +8,7 @@ CREATE TABLE characters (
 );
 
 
-CREATE TABLE books(
+CREATE TABLE character_books (
   id INTEGER PRIMARY KEY
   title TEXT,
   year INTEGER
@@ -16,7 +16,7 @@ CREATE TABLE books(
 );
 
 
-CREATE TABLE series(
+CREATE TABLE series (
   id INTEGER PRIMARY KEY,
   title TEXT,
   author_id INTEGER,
@@ -24,12 +24,12 @@ CREATE TABLE series(
 );
 
 
-CREATE TABLE authors(
+CREATE TABLE authors (
   id INTEGER PRIMARY KEY,
   name TEXT
 );
 
-CREATE TABLE subgenres(
+CREATE TABLE subgenres (
   id INTEGER PRIMARY KEY,
   name TEXT
 );
